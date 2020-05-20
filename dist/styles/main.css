@@ -1637,7 +1637,7 @@ p {
 .devops-teamslider--card {
   background-color: #ffffff;
   height: 250px;
-  padding: 45px 50px;
+  padding: 45px 40px;
   -webkit-box-shadow: 0 15px 50px rgba(0, 0, 0, 0.03);
   box-shadow: 0 15px 50px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
