@@ -1,0 +1,15 @@
+{
+  "name": "devops",
+  "version": "1.0.0",
+  "description": "DevOps homepage",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Sarvar Ergashev",
+  "license": "ISC",
+  "homepage": "https://sarvar.github.io/devops",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
