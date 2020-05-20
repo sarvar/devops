@@ -11,13 +11,17 @@
   <link rel="manifest" href="img/favicon/site.webmanifest">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="styles/libs.css">
-  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/main.css?v=1590007302255">
 
 </head>
 
 <body>
   <div class="page-wrap theme theme-1">
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
     <section id="home" class="grid-row grid-row--wrap grid-row--a-c intro header">
       <div class="devops-container">
         <div class="grid-row grid-row--j-s intro__top">
@@ -109,13 +113,125 @@
         <h1 class="devops-title--ttl mb-2 color-white">What We Do?</h1>
       </div>
       <div class="devops-reviews--slider devops-reviewslider z-index-2">
+        <!--review items-->
+        <div class="devops-reviewslider--item">
+          <div class="devops-reviewslider-card">
+            <div class="grid-row grid-row--wrap">
+              <div class="devops-reviewslider--img">
+                <img src="img/partner1.png" alt="" />
+              </div>
+              <div class="devops-reviewslider--content">
+                <h3 class="devops-reviewslider--name">Mark Smith</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidun</p>
+                <div class="btn-groups">
+                  <a href="#" title="" class="btn btn-primary btn-groups--link">Link 1</a>
+                  <a href="#" title="" class="btn btn-primary btn-groups--link">Link 2</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--review items-->
+        <div class="devops-reviewslider--item">
+          <div class="devops-reviewslider-card">
+            <div class="grid-row grid-row--wrap">
+              <div class="devops-reviewslider--img">
+                <img src="img/partner2.png" alt="" />
+              </div>
+              <div class="devops-reviewslider--content">
+                <h3 class="devops-reviewslider--name">Mellisa Rozario</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidun</p>
+                <div class="btn-groups">
+                  <a href="#" title="" class="btn btn-primary btn-groups--link">Link 1</a>
+                  <a href="#" title="" class="btn btn-primary btn-groups--link">Link 2</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--review items-->
+        <div class="devops-reviewslider--item">
+          <div class="devops-reviewslider-card">
+            <div class="grid-row grid-row--wrap">
+              <div class="devops-reviewslider--img">
+                <img src="img/partner3.png" alt="" />
+              </div>
+              <div class="devops-reviewslider--content">
+                <h3 class="devops-reviewslider--name">Jonathon Doe</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidun</p>
+                <div class="btn-groups">
+                  <a href="#" title="" class="btn btn-primary btn-groups--link">Link 1</a>
+                  <a href="#" title="" class="btn btn-primary btn-groups--link">Link 2</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--review items-->
+        <div class="devops-reviewslider--item">
+          <div class="devops-reviewslider-card">
+            <div class="grid-row grid-row--wrap">
+              <div class="devops-reviewslider--img">
+                <img src="img/partner4.png" alt="" />
+              </div>
+              <div class="devops-reviewslider--content">
+                <h3 class="devops-reviewslider--name">Mark Smith</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidun</p>
+                <div class="btn-groups">
+                  <a href="#" title="" class="btn btn-primary btn-groups--link">Link 1</a>
+                  <a href="#" title="" class="btn btn-primary btn-groups--link">Link 2</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--review items-->
+        <div class="devops-reviewslider--item">
+          <div class="devops-reviewslider-card">
+            <div class="grid-row grid-row--wrap">
+              <div class="devops-reviewslider--img">
+                <img src="img/partner5.png" alt="" />
+              </div>
+              <div class="devops-reviewslider--content">
+                <h3 class="devops-reviewslider--name">Mellisa Rozario</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidun</p>
+                <div class="btn-groups">
+                  <a href="#" title="" class="btn btn-primary btn-groups--link">Link 1</a>
+                  <a href="#" title="" class="btn btn-primary btn-groups--link">Link 2</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--review items-->
+        <div class="devops-reviewslider--item">
+          <div class="devops-reviewslider-card">
+            <div class="grid-row grid-row--wrap">
+              <div class="devops-reviewslider--img">
+                <img src="img/partner6.png" alt="" />
+              </div>
+              <div class="devops-reviewslider--content">
+                <h3 class="devops-reviewslider--name">Jonathon Doe</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidun</p>
+                <div class="btn-groups">
+                  <a href="#" title="" class="btn btn-primary btn-groups--link">Link 1</a>
+                  <a href="#" title="" class="btn btn-primary btn-groups--link">Link 2</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="devops-reviews--slider devops-reviewslider z-index-2 d-none">
+        <!--review items-->
         <div class="devops-reviewslider--item">
           <div class="devops-reviewslider-card">
             <blockquote class="devops-reviewslider--blockqoute mb-3">
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidun</p>
             </blockquote>
             <div class="grid-row grid-row--wrap grid-row--a-c">
-              <div class="devops-reviewslider--image mr-2">
+              <div class="devops-reviewslider--image">
                 <img src="img/avatar1.png" alt="" />
               </div>
               <div class="devops-reviewslider--content">
@@ -125,13 +241,14 @@
             </div>
           </div>
         </div>
+        <!--review items-->
         <div class="devops-reviewslider--item">
           <div class="devops-reviewslider-card">
             <blockquote class="devops-reviewslider--blockqoute mb-3">
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidun</p>
             </blockquote>
             <div class="grid-row grid-row--wrap grid-row--a-c">
-              <div class="devops-reviewslider--image mr-2">
+              <div class="devops-reviewslider--image">
                 <img src="img/avatar1.png" alt="" />
               </div>
               <div class="devops-reviewslider--content">
@@ -141,13 +258,14 @@
             </div>
           </div>
         </div>
+        <!--review items-->
         <div class="devops-reviewslider--item">
           <div class="devops-reviewslider-card">
             <blockquote class="devops-reviewslider--blockqoute mb-3">
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidun</p>
             </blockquote>
             <div class="grid-row grid-row--wrap grid-row--a-c">
-              <div class="devops-reviewslider--image mr-2">
+              <div class="devops-reviewslider--image">
                 <img src="img/avatar2.png" alt="" />
               </div>
               <div class="devops-reviewslider--content">
@@ -157,13 +275,14 @@
             </div>
           </div>
         </div>
+        <!--review items-->
         <div class="devops-reviewslider--item">
           <div class="devops-reviewslider-card">
             <blockquote class="devops-reviewslider--blockqoute mb-3">
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidun</p>
             </blockquote>
             <div class="grid-row grid-row--wrap grid-row--a-c">
-              <div class="devops-reviewslider--image mr-2">
+              <div class="devops-reviewslider--image">
                 <img src="img/avatar1.png" alt="" />
               </div>
               <div class="devops-reviewslider--content">
@@ -173,13 +292,14 @@
             </div>
           </div>
         </div>
+        <!--review items-->
         <div class="devops-reviewslider--item">
           <div class="devops-reviewslider-card">
             <blockquote class="devops-reviewslider--blockqoute mb-3">
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidun</p>
             </blockquote>
             <div class="grid-row grid-row--wrap grid-row--a-c">
-              <div class="devops-reviewslider--image mr-2">
+              <div class="devops-reviewslider--image">
                 <img src="img/avatar1.png" alt="" />
               </div>
               <div class="devops-reviewslider--content">
@@ -189,13 +309,14 @@
             </div>
           </div>
         </div>
+        <!--review items-->
         <div class="devops-reviewslider--item">
           <div class="devops-reviewslider-card">
             <blockquote class="devops-reviewslider--blockqoute mb-3">
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidun</p>
             </blockquote>
             <div class="grid-row grid-row--wrap grid-row--a-c">
-              <div class="devops-reviewslider--image mr-2">
+              <div class="devops-reviewslider--image">
                 <img src="img/avatar2.png" alt="" />
               </div>
               <div class="devops-reviewslider--content">
@@ -352,7 +473,7 @@
           <div class="devops-width-1-1 devops-width-1-2@s devops-width-1-3@m devops-width-1-3@l">
             <div class="devops-blogs--card">
               <div class="devops-blogs--image">
-                <img src="img/news1.png" alt="" />
+                <img src="img/news1.jpg" alt="" />
               </div>
               <div class="devops-blogs--body">
                 <h3 class="devops-blogs--title">Cutting-edge products launched through Logitech-Excel</h3>
@@ -371,7 +492,7 @@
           <div class="devops-width-1-1 devops-width-1-2@s devops-width-1-3@m devops-width-1-3@l">
             <div class="devops-blogs--card">
               <div class="devops-blogs--image">
-                <img src="img/news2.png" alt="" />
+                <img src="img/news2.jpg" alt="" />
               </div>
               <div class="devops-blogs--body">
                 <h3 class="devops-blogs--title">Cutting-edge products launched through Logitech-Excel</h3>
@@ -390,7 +511,7 @@
           <div class="devops-width-1-1 devops-width-1-2@s devops-width-1-3@m devops-width-1-3@l">
             <div class="devops-blogs--card">
               <div class="devops-blogs--image">
-                <img src="img/news3.png" alt="" />
+                <img src="img/news3.jpg" alt="" />
               </div>
               <div class="devops-blogs--body">
                 <h3 class="devops-blogs--title">Cutting-edge products launched through Logitech-Excel</h3>
@@ -735,8 +856,7 @@
       </nav>
     </div>
   </article>
-  <script src="scripts/libs.js"></script>
-  <script src="scripts/main.js"></script>
+  <script src="scripts/main.js?v=1590007302255"></script>
 
   <script>
     (function clientsSlider() {
@@ -747,7 +867,7 @@
         prevNextButtons: false,
         cellSelector: ".devops-clients--item",
         wrapAround: true,
-        autoPlay: 4000,
+        //autoPlay: 4000,
         pauseAutoPlayOnHover: true,
         //autoPlay: false,
         pageDots: false
