@@ -5607,10 +5607,6 @@ footer .devops-container {
 }
 
 @media (max-width:640px) {
-  .devops-blogs--image {
-    height: 420px
-  }
-
   .devops-clients--item {
     width: calc(100% - 30px)
   }
